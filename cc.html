@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>WorkOut Helper</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <link rel="shortcut icon" href="/Users/marcoscallearevalo/Desktop/Pics/gyms.png">
+
+
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/slicknav.css">
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/jquery.slicknav.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('#nav_menu').slicknav({prependTo:"#mobile_menu"});
+        });
+    </script>
+</head>
+
+<body>
+    <header class="bg-light text-center py-4">
+        <img src="/Users/marcoscallearevalo/Desktop/Pics/gyms.png" alt="WorkOut Helper Logo" class="img-fluid" style="max-width: 100px;">
+        <h1 class="display-4">WorkOut Helper</h1>
+        <h2>Contact Page</h2>
+        <h3 class="lead">Let us help you!</h3>
+    </header>
+
+
+    <nav id="mobile_menu"></nav>
+
+
+    <nav id="nav_menu" class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a href="sampson.html" class="nav-link">Home</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="trainerDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Personal Trainers</a>
+                        <div class="dropdown-menu" aria-labelledby="trainerDropdown">
+                            <a class="dropdown-item" href="#">Jeff</a>
+                            <a class="dropdown-item" href="#">Drew</a>
+                            <a class="dropdown-item" href="#">Abel</a>
+                            <div class="dropdown-submenu">
+                                <a class="dropdown-item dropdown-toggle" href="#">Mark</a>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="#">September 2010</a>
+                                    <a class="dropdown-item" href="#">February 2015</a>
+                                </div>
+                            </div>
+                            <a class="dropdown-item" href="march.html">Jeremy</a>
+                            <a class="dropdown-item" href="april.html">Ricardo</a>
+                        </div>
+                    </li>
+                    <li class="nav-item"><a href="workout.html" class="nav-link">Workout Plan</a></li>
+                    <li class="nav-item"><a href="nutrition.html" class="nav-link">Nutrition Plan</a></li>
+                    <li class="nav-item"><a href="cc.html" class="nav-link active">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container my-5">
+        <section>
+            <div class="row">
+                <div class="col-md-8">
+                    <h2>Contact Us</h2>
+                    <form action="">
+                        <div class="form-group">
+                            <label for="firstname">First Name:</label>
+                            <input type="text" class="form-control" id="firstname" placeholder="First name" name="firstname">
+                        </div>
+                        <div class="form-group">
+                            <label for="lastname">Last Name:</label>
+                            <input type="text" class="form-control" id="lastname" placeholder="Last name" name="lastname">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email:</label>
+                            <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+                        </div>
+                        <div class="form-group form-check">
+                            <input class="form-check-input" type="checkbox" name="subscribe" id="subscribe">
+                            <label class="form-check-label" for="subscribe">Subscribe</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                </div>
+                <aside class="col-md-4">
+                    <h2>Feel free ro contact us!</h2>
+                    <h3>Customer Service Phone Number</h3>
+                    <p class="news_item">(862)391-2523</p>
+                    <h3>More Information</h3>
+                    <p class="news_item">Please feel free to email us at any time! alexcu2326@gmail.com or sumbit a request form.</p>
+                </aside>
+            </div>
+        </section>
+    </main>
+
+    <footer class="text-center bg-dark text-white py-3">
+        <p>&copy; 2024 Marcos Calle. All rights reserved.</p>
+    </footer>
+</body>
+</html>

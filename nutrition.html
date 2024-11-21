@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <title>WorkOut Helper</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <link rel="shortcut icon" href="/Users/marcoscallearevalo/Desktop/Pics/gyms.png">
+
+
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles/normalize.css">
+  <link rel="stylesheet" href="styles/main.css">
+  <link rel="stylesheet" href="styles/slicknav.css">
+
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="js/jquery.slicknav.min.js"></script>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+  <script type="text/javascript">
+    $(document).ready(function(){
+      $('#nav_menu').slicknav({prependTo:"#mobile_menu"});
+    });
+  </script>
+</head>
+
+<body>
+  <header class="bg-light text-center py-4">
+    <img src="/Users/marcoscallearevalo/Desktop/Pics/gyms.png" alt="WorkOut Helper Logo" class="img-fluid" style="max-width: 100px;">
+    <h1 class="display-4">WorkOut Helper</h1>
+    <p class="lead">Better Yourself! Bring out the best in you!</p>
+  </header>
+
+  <!-- Mobile Navigation Menu -->
+  <nav id="mobile_menu"></nav>
+  
+      
+
+  <!-- Desktop Navigation Menu -->
+  <nav id="nav_menu" class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item"><a href="sampson.html" class="nav-link">Home</a></li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="trainerDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Personal Trainer</a>
+            <div class="dropdown-menu" aria-labelledby="trainerDropdown">
+              <a class="dropdown-item" href="#">Jeff</a>
+              <a class="dropdown-item" href="#">Drew</a>
+              <a class="dropdown-item" href="#">Abel</a>
+              <div class="dropdown-submenu">
+                <a class="dropdown-item dropdown-toggle" href="#">Mark</a>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="#">September 2010</a>
+                  <a class="dropdown-item" href="#">February 2015</a>
+                </div>
+              </div>
+              <a class="dropdown-item" href="march.html">Jeremy</a>
+              <a class="dropdown-item" href="april.html">Ricardo</a>
+            </div>
+          </li>
+          <li class="nav-item"><a href="workout.html" class="nav-link">Workout Plan</a></li>
+          <li class="nav-item"><a href="nutrition.html" class="nav-link active">Nutrition Plan</a></li>
+          <li class="nav-item"><a href="cc.html" class="nav-link">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main class="container my-5">
+    <article class="mb-5">
+      <h1 class="text-center text-primary mb-4">NUTRION PLANS</h1>
+      <img src="/Users/marcoscallearevalo/Desktop/Pics/download.jpg" alt="Healthy Food" class="img-fluid mb-3">
+      <p>Nutrition is fundamental to overall health and well-being because it provides the essential nutrients your body needs to function optimally. Here's why nutrition is important:</p>
+      <ul>
+            <li>Food provides the energy (calories) your body requires to perform everyday activities, from breathing and moving to thinking and growing.</li>
+            <li>Carbohydrates, fats, and proteins are macronutrients that fuel your body.</li>
+      </ul>
+      <p>Good nutrition isn't just about eating — it's about fueling your body for optimal performance, both physically and mentally. By prioritizing nutrition, you're investing in your long-term health and vitality.</p>
+      
+    </article>
+
+    <aside class="mb-5">
+      <h2 class="text-center text-secondary">Nutrition Plans(All this plans are 100% build for you):</h2>
+      <ul class="list-group">
+        <li class="list-group-item">Weight Loss: <a href="l" class="text-success">100$ per month</a></li>
+        <li class="list-group-item">Bulking: <a href="l" class="text-success">100$ per month</a></li>
+        <li class="list-group-item">Gain Strenght: <a href="l" class="text-primary">150$ per month</a></li>
+        <li class="list-group-item">Body show prep: <a href="l" class="text-primary">250% per month</a></li>
+      </ul>
+    </aside>
+  </main>
+
+  <footer class="text-center bg-dark text-white py-3">
+    <p>&copy; 2024 Marcos Calle. All rights reserved.</p>
+  </footer>
+</body>
+</html>
